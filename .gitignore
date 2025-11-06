@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment files
+.env
+
+# VS Code settings
+.vscode/
+
+# Chroma DB / vector DB files
+chroma/
+*.sqlite3
+chrome_langchain_db/
+
+# Ollama models (DON'T commit)
+~/.ollama/
+
+# Logs
+*.log
